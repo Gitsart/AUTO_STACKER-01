@@ -1,6 +1,6 @@
 #include<MobaTools.h>
-const byte stepPin =19;
-const byte dirPin =18;
+const byte stepPin =18;
+const byte dirPin =17;
 
 #define limitPin A11
 const byte senPin= A10;
