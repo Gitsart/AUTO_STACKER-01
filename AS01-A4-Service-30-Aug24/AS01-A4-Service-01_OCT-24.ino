@@ -111,7 +111,7 @@ void set_pos() {
     
     delay(1000);
     stepper1.setSpeed(2000);
-    stepper1.moveTo(-4000);
+    stepper1.moveTo(-3800);
 
     while(stepper1.moving()){Serial.println("MOVING to Pos1");}
 
